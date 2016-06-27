@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+a img {
+    border: none;
+    outline: none;
+}
+
 /* ---------- Page Dimensions and Placement --------------- */
 
 #page {
@@ -48,6 +53,8 @@ h1, h2, h3 {
 }
 
 #navigation li a {
+    border: none;
+    outline: none;
     color: #000;
     padding: 10px;
     text-decoration: none;
@@ -225,5 +232,5 @@ h1, h2, h3 {
 #footer .warranty {
     text-align: right;
     width: 30%;
-    padding: 10px
+    padding: 10px;
 }

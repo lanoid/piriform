@@ -1,0 +1,72 @@
+/* ---------- Navigation ---------------------------------- */
+
+#navigation li {
+    zoom: 1;
+    *display: inline;
+}
+
+/* ---------- Product Carousel ---------------------------- */
+
+#product-carousel .products .image-container,
+#product-carousel .products .text-container {
+    zoom: 1;
+    *display: inline;
+}
+
+#product-carousel .products li {
+    display: none;
+}
+
+#product-carousel .products li:first-child {
+    display: block;
+}
+
+#product-carousel .products .text-container {
+    padding: 0;
+}
+
+#product-carousel .products .text-container > * {
+    margin: 0 20px;
+}
+
+#product-carousel .products .text-container .section {
+    margin-top: 20px;
+}
+
+#product-carousel .product-thumbs {
+    display: none;
+}
+
+/* ---------- Image Container ----------------------------- */
+
+.left-image .image-container,
+.left-image .text-container {
+    zoom: 1;
+    *display: inline;
+}
+
+.left-image .text-container {
+    padding: 0;
+    width: 55%;
+}
+
+.left-image .text-container > * {
+    margin: 0 0 0 20px;
+}
+
+/* ---------- Footer -------------------------------------- */
+
+#footer .menu,
+#footer .warranty {
+    zoom: 1;
+    *display: inline;
+}
+
+#footer .warranty {
+    width: 30%;
+    padding: 0;
+}
+
+#footer .warranty > * {
+    margin: 10px;
+}
